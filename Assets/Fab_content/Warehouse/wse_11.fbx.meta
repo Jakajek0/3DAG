@@ -1,0 +1,299 @@
+fileFormatVersion: 2
+guid: 4af1460e4f0065d46856bcedbeb5fec8
+ModelImporter:
+  serializedVersion: 24501
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black Box
+    second: {fileID: 2100000, guid: 976e27fd237f3934ebd60a04bb535a96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black Garage Wndow Frame
+    second: {fileID: 2100000, guid: f49ef8407e1e7da428880cd74c497e27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Brick
+    second: {fileID: 2100000, guid: 82118d94843c67040a699dd73a77beec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Corrugated Plates
+    second: {fileID: 2100000, guid: e9891b2bcc823a645b68bf6779975935, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Corrugated_PVC_Grey
+    second: {fileID: 2100000, guid: 5ba38aea490d95f4fb968ec4dcad3ae2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eevee Glass
+    second: {fileID: 2100000, guid: d21e74b6d11ec7b4cbee1c5433b8799f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fire Exit Sign
+    second: {fileID: 2100000, guid: ec5d6e36520dd3640ba19fde1f945ee2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flood Lamp 2 Warm lsrc (30;25;20)
+    second: {fileID: 2100000, guid: f02baf7bdf791294bbfc18963a5585f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Garage_Pole
+    second: {fileID: 2100000, guid: f573912e6806eb844903526cee9192da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 2aa757eb6b1b5de4185930801e3a5831, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal Tiles
+    second: {fileID: 2100000, guid: c8de2371a5049a24eaddf2e2711e0d85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vent Blue
+    second: {fileID: 2100000, guid: 31b2df22df8838d43b7eebe27027f151, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Corrugated_PVC_Grey_albedo
+    second: {fileID: 2800000, guid: 894eb82d9274838438b32ae6452c6e2d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Corrugated_PVC_metallic
+    second: {fileID: 2800000, guid: 03b71a722f749c745a35e98fdfa36bde, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Corrugated_PVC_normal
+    second: {fileID: 2800000, guid: 054be505f2c1d2c409a383c178850032, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Corrugated_PVC_roughness
+    second: {fileID: 2800000, guid: 17c38c52c135a7941a94b0ff50cc33cd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Garage_Pole_BaseColor
+    second: {fileID: 2800000, guid: ad57614c8eda8ca498cfe1eae029aaad, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Garage_Pole_Metallic
+    second: {fileID: 2800000, guid: 920fe0cd2f0bd3b47b336309176c2727, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Garage_Pole_Normal
+    second: {fileID: 2800000, guid: ee9fc6f645b32384ca2ecd903b7675df, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Garage_Pole_Roughness
+    second: {fileID: 2800000, guid: bb76b25efabe29249a25bc0d376f745c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Glass_Alpha
+    second: {fileID: 2800000, guid: daaadd692e54cd54fb696433f9907982, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Glass_BaseColor
+    second: {fileID: 2800000, guid: 0bad8f5c6223c6a40a53ccf2d7a88ac3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Glass_Metallic
+    second: {fileID: 2800000, guid: 120342bf77260964d9321189de93360c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Glass_Normal
+    second: {fileID: 2800000, guid: e992d268e659136469457f052a4e37fd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Glass_Roughness
+    second: {fileID: 2800000, guid: 6fbf4c2ec09f1fb4cb3046642455105d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Keep_Clear
+    second: {fileID: 2800000, guid: ba613370623bafc4fb72b45488b1ac65, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal_Panels_Horizontal_BaseColor
+    second: {fileID: 2800000, guid: a976af6dda70c6044b984974cad28722, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal_Panels_Horizontal_Normal
+    second: {fileID: 2800000, guid: b4f4cabe8f88da744b5fa2c2a09fdb95, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal_Panels_Horizontal_Roughness
+    second: {fileID: 2800000, guid: afb028931f1eea045849962d8d08b838, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: brick_plain_2_albedo
+    second: {fileID: 2800000, guid: 7501784a98c4a524ab45f53534e03202, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: brick_plain_2_normal
+    second: {fileID: 2800000, guid: aee65de5dbd64a94a86809c3c7566791, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: brick_plain_2_roughness
+    second: {fileID: 2800000, guid: 71bdba8e58fe1f345abfab74282044e2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: corrugated_plates_albedo
+    second: {fileID: 2800000, guid: bb04effe0f0fd204585d4b54ff8fb856, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: corrugated_plates_normal
+    second: {fileID: 2800000, guid: 3cb1b79b1cb6d1e4a885e1922cfdc84b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: corrugated_plates_roughness
+    second: {fileID: 2800000, guid: 00cf04267a646714ea23bf973ca5f916, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: prg_flood_lamp_2_normal
+    second: {fileID: 2800000, guid: c023720d6c9280d41b2b48e4a4c45fe5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: vent_square_albedo
+    second: {fileID: 2800000, guid: a89de664e69bbf245abc6f04a5c380ba, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+    searchTexturesGlobally: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    importUVs: -1
+    importVertexColors: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+    calculateBlendshapeNormalsDeltaFromImportedNormals: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
