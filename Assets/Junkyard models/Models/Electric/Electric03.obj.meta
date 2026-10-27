@@ -1,5 +1,12 @@
 fileFormatVersion: 2
 guid: 69127c81c3fbd1b4381e245b1b5f434f
+AssetOrigin:
+  serializedVersion: 1
+  productId: 97213
+  packageName: Junkyard models pack
+  packageVersion: 1.0
+  assetPath: Assets/Junkyard models/Models/Electric/Electric03.obj
+  uploadId: 193968
 ModelImporter:
   serializedVersion: 24501
   internalIDToNameTable:
@@ -60,7 +67,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importPhysicalCameras: 0
@@ -136,10 +143,3 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 97213
-  packageName: Junkyard models pack
-  packageVersion: 1.0
-  assetPath: Assets/Junkyard models/Models/Electric/Electric03.obj
-  uploadId: 193968

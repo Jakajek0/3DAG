@@ -1,5 +1,12 @@
 fileFormatVersion: 2
 guid: 9bbf6bb9a298f734394e7eb668a9d06f
+AssetOrigin:
+  serializedVersion: 1
+  productId: 97213
+  packageName: Junkyard models pack
+  packageVersion: 1.0
+  assetPath: Assets/Junkyard models/Models/Windmill/Windmill.fbx
+  uploadId: 193968
 ModelImporter:
   serializedVersion: 24501
   internalIDToNameTable:
@@ -113,7 +120,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 0.01
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importPhysicalCameras: 0
@@ -189,10 +196,3 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 97213
-  packageName: Junkyard models pack
-  packageVersion: 1.0
-  assetPath: Assets/Junkyard models/Models/Windmill/Windmill.fbx
-  uploadId: 193968

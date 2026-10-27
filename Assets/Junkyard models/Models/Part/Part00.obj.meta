@@ -1,5 +1,12 @@
 fileFormatVersion: 2
 guid: b612f78148564824a8c10858643bf346
+AssetOrigin:
+  serializedVersion: 1
+  productId: 97213
+  packageName: Junkyard models pack
+  packageVersion: 1.0
+  assetPath: Assets/Junkyard models/Models/Part/Part00.obj
+  uploadId: 193968
 ModelImporter:
   serializedVersion: 24501
   internalIDToNameTable:
@@ -60,7 +67,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importPhysicalCameras: 0
@@ -136,10 +143,3 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 97213
-  packageName: Junkyard models pack
-  packageVersion: 1.0
-  assetPath: Assets/Junkyard models/Models/Part/Part00.obj
-  uploadId: 193968
