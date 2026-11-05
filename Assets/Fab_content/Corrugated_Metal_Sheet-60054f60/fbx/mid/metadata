@@ -1,0 +1,194 @@
+{
+	"assetNamespace": "fab",
+	"listing":
+	{
+		"averageRating": 0,
+		"createdAt": "",
+		"description": "<p><strong>Texel density:</strong> 6576 px/m</p><p><strong>Physical size:</strong> 0.82m x 2.12m x 0.15m</p><p><strong>Mesh type:</strong> Closed mesh</p><p><strong>Maps:</strong> AO Displacement<em>(high tier only)</em> Specular Basecolor Bump Cavity Gloss Normal Roughness</p> <p><span>Create high-quality 3D experiences and worlds with Quixel Megascans. Browse thousands of photorealistic assets and environments, including materials, 3D assets, plants, decals, and more available </span><a target=\"_blank\" href=\"https://www.fab.com/sellers/Quixel\" rel=\"noopener noreferrer nofollow\"><span><u>here</u></span></a><span> on Fab.</span></p><p></p><p><span>For any questions or support regarding Quixel content, please get in touch </span><a target=\"_blank\" href=\"https://support.fab.com/s/?ProductOrigin=1PC\" rel=\"noopener noreferrer nofollow\"><span><u>here</u></span></a><span>.</span></p>",
+		"isAiForbidden": true,
+		"isAiGenerated": false,
+		"lastUpdatedAt": "",
+		"listingType": "3d-model",
+		"media": "https://media.fab.com/image_previews/gallery_images/0983878c-22d4-4750-bb14-f8b9291811db/5009d342-e7f3-4b21-a074-933395ef11b4.jpeg",
+		"publishedAt": "2024-10-11T23:32:12.441074Z",
+		"reviewCount": 0,
+		"thumbnail": "https://media.fab.com/image_previews/gallery_images/d201a673-3b16-4a4a-b4ff-9758a1a10247/cb2568c0-6c64-443c-a2d8-413bc4f1048d.jpeg",
+		"title": "Corrugated Metal Sheet",
+		"uid": "60054f60-89df-40f3-8b1e-0d00b4e2d48f",
+		"updatedAt": "",
+		"user":
+		{
+			"coverImageUrl": "https://cdn1.epicgames.com/fab/seller/o-cbf5bbfdb340d6a839b5520cb31328/cover/67dbdb8f.jpg",
+			"profileImageUrl": "https://cdn1.epicgames.com/fab/seller/o-cbf5bbfdb340d6a839b5520cb31328/profile/39e5dabd.png",
+			"sellerName": "Quixel Megascans",
+			"uid": "45ea3429-f62c-4f17-aa15-5bb9dfcd0079"
+		},
+		"tags": [
+			{
+				"name": "Warehouse",
+				"slug": "warehouse",
+				"uid": "14fabac0-b646-4416-a0da-9f710846e623"
+			},
+			{
+				"name": "Stain",
+				"slug": "stain",
+				"uid": "4d3cc856-559e-417a-b6d1-dff74d381e71"
+			},
+			{
+				"name": "Dirty",
+				"slug": "dirty",
+				"uid": "54b617d2-d7e9-439d-9bd8-2787675a47e3"
+			},
+			{
+				"name": "Metal",
+				"slug": "metal",
+				"uid": "55165238-19a2-4184-85f1-e8650bd2a38d"
+			},
+			{
+				"name": "Rusty",
+				"slug": "rusty",
+				"uid": "65c5e671-45b0-4ed5-a63d-4bcb6883a99d"
+			},
+			{
+				"name": "Groove",
+				"slug": "groove",
+				"uid": "7e497c30-3ce7-4e2a-9ee4-74b6fe326888"
+			},
+			{
+				"name": "Sheet",
+				"slug": "sheet",
+				"uid": "88fcd98e-c21f-429e-988f-ab752dc3cbe7"
+			},
+			{
+				"name": "Exterior",
+				"slug": "exterior",
+				"uid": "98cde8e0-56a5-4019-8889-2b409949fdb9"
+			},
+			{
+				"name": "Urban",
+				"slug": "urban",
+				"uid": "a689898c-31ae-4d96-8b43-45002335d552"
+			},
+			{
+				"name": "Rough",
+				"slug": "rough",
+				"uid": "abd824a5-384f-43b7-8e90-b4a5207bb0b3"
+			},
+			{
+				"name": "Dirt",
+				"slug": "dirt",
+				"uid": "afb8dbdd-8c6c-44d6-a69b-9197f4a84963"
+			},
+			{
+				"name": "Wall",
+				"slug": "wall",
+				"uid": "b138d7ed-637e-4c63-b1dd-2295e069f06f"
+			},
+			{
+				"name": "Fencing",
+				"slug": "fencing",
+				"uid": "b5380c4e-0378-4df1-b885-714b9caad6d5"
+			},
+			{
+				"name": "Industrial",
+				"slug": "industrial",
+				"uid": "bf46a0e3-cde2-44f8-858a-3e539cd8bba6"
+			},
+			{
+				"name": "Stained",
+				"slug": "stained",
+				"uid": "dd845281-0220-41b6-a55c-244270604f0a"
+			}
+		],
+		"category":
+		{
+			"name": "Hardware",
+			"path": "objects-decor/hardware",
+			"slug": "objects-decor--hardware",
+			"uid": "e4c317fd-792b-462d-8cc9-3736f0969714"
+		},
+		"assetFormats": [
+			{
+				"assetFormatType":
+				{
+					"name": "FBX",
+					"groupName": "3D Exchange Formats",
+					"code": "fbx",
+					"icon": "cube",
+					"extensions": [
+						"fbx"
+					]
+				}
+			},
+			{
+				"assetFormatType":
+				{
+					"name": "Converted Files",
+					"groupName": "",
+					"code": "converted-files",
+					"icon": "cube",
+					"extensions": [
+						"gltf",
+						"glb",
+						"usdz"
+					]
+				}
+			},
+			{
+				"assetFormatType":
+				{
+					"name": "ZBrush",
+					"groupName": "3D DCC Formats",
+					"code": "z-brush",
+					"icon": "zbrush",
+					"extensions": [
+						"zbp",
+						"ztl"
+					]
+				}
+			},
+			{
+				"assetFormatType":
+				{
+					"name": "Additional files",
+					"groupName": "Other Formats",
+					"code": "additional-files",
+					"icon": "file",
+					"extensions": [
+						"zip"
+					]
+				}
+			},
+			{
+				"assetFormatType":
+				{
+					"name": "GLTF",
+					"groupName": "3D Exchange Formats",
+					"code": "gltf",
+					"icon": "cube",
+					"extensions": [
+						"gltf"
+					]
+				}
+			}
+		],
+		"_PluginMetas":
+		{
+			"apiDataVersion": "0.0.1",
+			"entitlementUid": "ad73b39c-c1a7-4f95-b22e-7b25df5af98b",
+			"cacheSize": 0,
+			"downloaded": []
+		}
+	},
+	"target": "unity",
+	"quality": "mid",
+	"format": "fbx",
+	"fileId": "849e85b9-ed0a-4211-8ff1-343663343bde",
+	"platformIncluded": "",
+	"distributionPointBaseUrls": [],
+	"distributionMethod": "",
+	"entitlementUid": "ad73b39c-c1a7-4f95-b22e-7b25df5af98b",
+	"invertedNormal": false,
+	"isConverted": false,
+	"isQuixel": true
+}
