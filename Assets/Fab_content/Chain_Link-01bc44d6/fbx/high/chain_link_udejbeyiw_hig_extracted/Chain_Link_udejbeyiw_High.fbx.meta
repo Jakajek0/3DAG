@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a0a2ab5d2368c96489134cde65378b60
+guid: 947749f426189ed41b3dffbf4d04b618
 ModelImporter:
   serializedVersion: 24501
   internalIDToNameTable: []
@@ -109,6 +109,6 @@ ModelImporter:
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
-  userData: FABIMPORT
+  userData: 
   assetBundleName: 
   assetBundleVariant: 

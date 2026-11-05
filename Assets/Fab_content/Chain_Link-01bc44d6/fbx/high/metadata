@@ -1,0 +1,161 @@
+{
+	"assetNamespace": "fab",
+	"listing":
+	{
+		"averageRating": 5,
+		"createdAt": "",
+		"description": "<p><strong>Texel density:</strong> 1078 px/m</p><p><strong>Physical size:</strong> 0.04m x 0.06m x 0.01m</p><p><strong>Mesh type:</strong> Closed mesh</p><p><strong>Maps:</strong> AO Displacement<em>(high tier only)</em> Specular Basecolor Cavity Gloss Normal Roughness</p> <p><span>Create high-quality 3D experiences and worlds with Quixel Megascans. Browse thousands of photorealistic assets and environments, including materials, 3D assets, plants, decals, and more available </span><a target=\"_blank\" href=\"https://www.fab.com/sellers/Quixel\" rel=\"noopener noreferrer nofollow\"><span><u>here</u></span></a><span> on Fab.</span></p><p></p><p><span>For any questions or support regarding Quixel content, please get in touch </span><a target=\"_blank\" href=\"https://support.fab.com/s/?ProductOrigin=1PC\" rel=\"noopener noreferrer nofollow\"><span><u>here</u></span></a><span>.</span></p>",
+		"isAiForbidden": false,
+		"isAiGenerated": false,
+		"lastUpdatedAt": "",
+		"listingType": "3d-model",
+		"media": "https://media.fab.com/image_previews/gallery_images/cbc7959d-5b1a-4634-b000-a1452f13be62/1f638603-635c-4cb2-b095-e22bd4e6ac0e.jpeg",
+		"publishedAt": "2026-11-05T15:26:16.394798Z",
+		"reviewCount": 2,
+		"thumbnail": "https://media.fab.com/image_previews/gallery_images/5ce6542b-6028-4112-9187-4a13dd065632/8ad30460-3f14-4ea7-9821-75b9089723f1.jpeg",
+		"title": "Chain Link",
+		"uid": "01bc44d6-d392-44b2-9c3d-2d7fc856ac49",
+		"updatedAt": "",
+		"user":
+		{
+			"coverImageUrl": "https://cdn1.epicgames.com/fab/seller/o-cbf5bbfdb340d6a839b5520cb31328/cover/67dbdb8f.jpg",
+			"profileImageUrl": "https://cdn1.epicgames.com/fab/seller/o-cbf5bbfdb340d6a839b5520cb31328/profile/39e5dabd.png",
+			"sellerName": "Quixel Megascans",
+			"uid": "45ea3429-f62c-4f17-aa15-5bb9dfcd0079"
+		},
+		"tags": [
+			{
+				"name": "Link",
+				"slug": "link",
+				"uid": "0186a4b9-611f-4e2b-8721-6e015f7b0f5f"
+			},
+			{
+				"name": "Weathered",
+				"slug": "weathered",
+				"uid": "1b898690-ea9c-4c08-9dcf-4f1c7582d1b5"
+			},
+			{
+				"name": "Metal",
+				"slug": "metal",
+				"uid": "55165238-19a2-4184-85f1-e8650bd2a38d"
+			},
+			{
+				"name": "Barrier",
+				"slug": "barrier",
+				"uid": "62e7d8f1-4c12-4980-81bb-5f2426692688"
+			},
+			{
+				"name": "Rusty",
+				"slug": "rusty",
+				"uid": "65c5e671-45b0-4ed5-a63d-4bcb6883a99d"
+			},
+			{
+				"name": "Old",
+				"slug": "old",
+				"uid": "975b1521-db01-43ed-a939-c2c2da5027b1"
+			},
+			{
+				"name": "Chain",
+				"slug": "chain",
+				"uid": "b49707f1-ac5e-4143-bfa9-79ead260a640"
+			},
+			{
+				"name": "Anchor",
+				"slug": "anchor",
+				"uid": "ce0db0ba-e23f-4919-a87c-9dacfd6c1e12"
+			},
+			{
+				"name": "Hardware",
+				"slug": "hardware",
+				"uid": "d95683fc-e5fb-4fde-93f9-c16ea92e4894"
+			}
+		],
+		"category":
+		{
+			"name": "Consumer",
+			"path": "electronics-technology/consumer",
+			"slug": "electronics-technology--consumer",
+			"uid": "92be22d2-514e-4ed2-a566-f0d4888d3c76"
+		},
+		"assetFormats": [
+			{
+				"assetFormatType":
+				{
+					"name": "FBX",
+					"groupName": "3D Exchange Formats",
+					"code": "fbx",
+					"icon": "cube",
+					"extensions": [
+						"fbx"
+					]
+				}
+			},
+			{
+				"assetFormatType":
+				{
+					"name": "Converted Files",
+					"groupName": "",
+					"code": "converted-files",
+					"icon": "cube",
+					"extensions": [
+						"gltf",
+						"glb",
+						"usdz"
+					]
+				}
+			},
+			{
+				"assetFormatType":
+				{
+					"name": "Additional files",
+					"groupName": "Other Formats",
+					"code": "additional-files",
+					"icon": "file",
+					"extensions": [
+						"zip"
+					]
+				}
+			},
+			{
+				"assetFormatType":
+				{
+					"name": "GLTF",
+					"groupName": "3D Exchange Formats",
+					"code": "gltf",
+					"icon": "cube",
+					"extensions": [
+						"gltf"
+					]
+				}
+			},
+			{
+				"assetFormatType":
+				{
+					"name": "UEFN Reference",
+					"groupName": "Game Engine Formats",
+					"code": "uefn",
+					"icon": "unreal-engine",
+					"extensions": []
+				}
+			}
+		],
+		"_PluginMetas":
+		{
+			"apiDataVersion": "0.0.1",
+			"entitlementUid": "c0ff2214-3054-4135-aef6-cb30fe3461cf",
+			"cacheSize": 0,
+			"downloaded": []
+		}
+	},
+	"target": "unity",
+	"quality": "high",
+	"format": "fbx",
+	"fileId": "b8f09f95-f17e-4392-a1e0-bbb10b04b00b",
+	"platformIncluded": "",
+	"distributionPointBaseUrls": [],
+	"distributionMethod": "",
+	"entitlementUid": "c0ff2214-3054-4135-aef6-cb30fe3461cf",
+	"invertedNormal": false,
+	"isConverted": false,
+	"isQuixel": true
+}
