@@ -35,7 +35,31 @@ public class BatteryCollect : MonoBehaviour
     {
         if (pickupAmount == 1)
         {
-            
+            hud.sprite = pickup1Tex;
+
+            hud.enabled = true;
+        }
+        else if (pickupAmount == 2)
+        {
+            hud.sprite = pickup2Tex;
+
+            hud.enabled = true;
+        }
+        else if (pickupAmount == 3)
+        {
+            hud.sprite = pickup3Tex;
+
+            hud.enabled = true;
+        }
+        else if (pickupAmount == 4)
+        {
+            hud.sprite = pickup4Tex;
+
+            hud.enabled = true;
+        }
+        else
+        {
+            hud.sprite = pickup0Tex;
         }
     }
 }
