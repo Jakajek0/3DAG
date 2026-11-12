@@ -20,6 +20,9 @@ public class PlayerCollisions : MonoBehaviour
 
     bool doorIsOpen = false;
 
+    // Battery Sound
+    [SerializeField] private AudioClip pickupCollectSound;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -82,5 +85,18 @@ public class PlayerCollisions : MonoBehaviour
 
         // Set Animator parameter
         doorAnimator.SetBool("doorOpen", false);
+    }
+
+    // Pickup collection
+    void OnTriggerEnter(Collider coll)
+    {
+        if (coll.gameObject.CompareTag("pickup"))
+        {
+            PickupCollect.pickupAmount++;
+
+            audio.PlayOneShot(pickupCollectSound);
+
+            Destroy(coll.gameObject);
+        }
     }
 }
