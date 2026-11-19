@@ -16,7 +16,7 @@ public class PlayerCollisions : MonoBehaviour
     // Door sounds
     [SerializeField] private AudioClip doorOpenSound;
     [SerializeField] private AudioClip doorShutSound;
-    private new AudioSource audio; // Will hold the AudioSource component
+    private AudioSource audio; // Will hold the AudioSource component
 
     bool doorIsOpen = false;
 
