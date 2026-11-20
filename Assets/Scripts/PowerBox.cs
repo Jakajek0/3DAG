@@ -1,19 +1,22 @@
 using UnityEngine;
+using System.Collections;
+using Unity.VisualScripting;
 
-public class Power : MonoBehaviour
+public class PowerBox : MonoBehaviour
 {    
     [SerializeField] private GameObject light1;
     [SerializeField] private GameObject light2;
     [SerializeField] private GameObject light3;
     [SerializeField] private GameObject light4;
 
-    [SerializeField] private PickupCollect pickup;
-    
+    private PickupCollect pickup;
+    public bool moveLock = true;
 
+    [SerializeField] private TextBox box;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
-    {
+    {    
         light1.SetActive(false);
         light2.SetActive(false);
         light3.SetActive(false);
@@ -52,10 +55,19 @@ public class Power : MonoBehaviour
             {
                 light1.SetActive(true);
             }
-            else
-            {
-                
-            }
+
+            StartCoroutine(HandleTriggerSequence());
         }
+    }
+
+    private IEnumerator HandleTriggerSequence()
+    {
+        moveLock = false;
+        box.TextBoxOpen();
+        
+        yield return new WaitUntil(() => Input.GetMouseButtonDown(0)); 
+
+        box.TextBoxClose();
+        moveLock = true;
     }
 }
