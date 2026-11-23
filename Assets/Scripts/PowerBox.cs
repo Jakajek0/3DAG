@@ -1,6 +1,6 @@
 using UnityEngine;
-using System.Collections;
 using Unity.VisualScripting;
+using System;
 
 public class PowerBox : MonoBehaviour
 {    
@@ -9,10 +9,13 @@ public class PowerBox : MonoBehaviour
     [SerializeField] private GameObject light3;
     [SerializeField] private GameObject light4;
 
-    private PickupCollect pickup;
-    public bool moveLock = true;
+    [SerializeField] private NPCInteract Interact;
 
-    [SerializeField] private TextBox box;
+
+    private PickupCollect pickup;
+    public bool isPoweredOn = false;
+
+    private string[] hintMessage = new string[2];
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -29,45 +32,31 @@ public class PowerBox : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
+    public void PowerOn()
     {
-        if (other.CompareTag("Player"))
-        {
-            if (PickupCollect.pickupAmount == 4)
+            if (PickupCollect.pickupAmount >= 4)
             {
                 light1.SetActive(true);
                 light2.SetActive(true);
                 light3.SetActive(true);
                 light4.SetActive(true);
-            }
-            else if (PickupCollect.pickupAmount == 3)
-            {
-                light1.SetActive(true);
-                light2.SetActive(true);
-                light3.SetActive(true);
-            }
-            else if (PickupCollect.pickupAmount == 2)
-            {
-                light1.SetActive(true);
-                light2.SetActive(true);
-            }
-            else if (PickupCollect.pickupAmount == 1)
-            {
-                light1.SetActive(true);
-            }
 
-            StartCoroutine(HandleTriggerSequence());
-        }
-    }
+                PickupCollect.pickupAmount = 0; // Reset the pickup amount after powering on
+                Interact.enabled = false; // Disable the NPCInteract script to prevent further interaction
+                isPoweredOn = true;
 
-    private IEnumerator HandleTriggerSequence()
-    {
-        moveLock = false;
-        box.TextBoxOpen();
-        
-        yield return new WaitUntil(() => Input.GetMouseButtonDown(0)); 
-
-        box.TextBoxClose();
-        moveLock = true;
+                Interact.dialogueLines[0] = "That must have powered it on!";
+                Interact.dialogueLines[1] = "Now I can pull the lever to use the crane! It should be at the top.";
+            }
+            else if (PickupCollect.pickupAmount >= 1 && PickupCollect.pickupAmount < 4)
+            {
+                Interact.dialogueLines[0] = "I need more power to get this working.";
+                Interact.dialogueLines[1] = "I should look around a little bit more.";
+            }
+            else if (PickupCollect.pickupAmount == 0)
+            {
+                Interact.dialogueLines[0] = "It looks like this needs power.";
+                Interact.dialogueLines[1] = "Maybe I can find something around here.";
+            }
     }
 }

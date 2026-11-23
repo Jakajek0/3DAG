@@ -50,9 +50,6 @@ namespace StarterAssets
 		public float TopClamp = 90.0f;
 		[Tooltip("How far in degrees can you move the camera down")]
 		public float BottomClamp = -90.0f;
-		
-		// MY CREATION
-		public PowerBox Power;
 
 		// cinemachine
 		private float _cinemachineTargetPitch;
@@ -117,27 +114,15 @@ namespace StarterAssets
 
 		private void Update()
 		{
-			// MY CREATION
-			bool movement = Power.moveLock;
-			
 			JumpAndGravity();
 			GroundedCheck();
-			// this if statement is MY CREATION
-			if (movement == true)
-			{
-				Move();
-			}
+			Move();
 			
 		}
 
 		private void LateUpdate()
 		{
-			bool movement = Power.moveLock;
-			
-			if (movement == true)
-			{
-				CameraRotation();
-			}
+			CameraRotation();
 		}
 
 		private void GroundedCheck()

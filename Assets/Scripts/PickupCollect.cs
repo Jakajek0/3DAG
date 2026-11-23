@@ -60,6 +60,8 @@ public class PickupCollect : MonoBehaviour
         else
         {
             hud.sprite = pickup0Tex;
+
+            hud.enabled = false;
         }
     }
 }
