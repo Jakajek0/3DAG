@@ -54,6 +54,10 @@ public class PlayerCollisions : MonoBehaviour
         {
             OpenDoor();
         }
+        if (hit.gameObject.CompareTag("swiss"))
+        {
+            SwissCollect.swissCollected = true;
+        }
     }
 
     // Custom open door method

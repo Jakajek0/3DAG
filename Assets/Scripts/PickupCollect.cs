@@ -17,8 +17,6 @@ public class PickupCollect : MonoBehaviour
     [SerializeField] Sprite pickup4Tex;
     [SerializeField] Sprite pickup0Tex;
 
-    [SerializeField] Sprite swiss;
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

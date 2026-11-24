@@ -1978,6 +1978,97 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2dd1a864dba0ac8488d6fcffd8a6df40, type: 3}
+--- !u!1 &130971322
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 130971323}
+  - component: {fileID: 130971325}
+  - component: {fileID: 130971324}
+  - component: {fileID: 130971326}
+  m_Layer: 5
+  m_Name: Swiss
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &130971323
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130971322}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1068054182}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 750, y: 350}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &130971324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130971322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 91e2cf3774795a848a8db10a1a1600d8, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &130971325
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130971322}
+  m_CullTransparentMesh: 1
+--- !u!114 &130971326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130971322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dab265b9a422da7409bc15641f3d0a9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SwissCollect
+  swiss: {fileID: 21300000, guid: 91e2cf3774795a848a8db10a1a1600d8, type: 3}
+  swisscollected: {fileID: 21300000, guid: 66defdbbce1facc4dacce019cd1411ca, type: 3}
+  swissObject: {fileID: 205421639}
 --- !u!1001 &132672842
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3017,24 +3108,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f408b054bcd1484438fa844955ab0054, type: 3}
   m_PrefabInstance: {fileID: 1694851319}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &205421641
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 205421639}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65d5142e1307c2647b3a21d9dd9fa400, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PickupCollect
-  pickup1Tex: {fileID: 0}
-  pickup2Tex: {fileID: 0}
-  pickup3Tex: {fileID: 0}
-  pickup4Tex: {fileID: 0}
-  pickup0Tex: {fileID: 0}
-  swiss: {fileID: 0}
 --- !u!65 &205421642
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3050,7 +3123,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -10376,7 +10449,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 850, y: 300}
+  m_AnchoredPosition: {x: -850, y: 300}
   m_SizeDelta: {x: 80, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &754593367
@@ -10428,13 +10501,12 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65d5142e1307c2647b3a21d9dd9fa400, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BatteryCollect
+  m_EditorClassIdentifier: Assembly-CSharp::PickupCollect
   pickup1Tex: {fileID: 21300000, guid: 1722f7b7a1427446c82c18ca8eea179b, type: 3}
   pickup2Tex: {fileID: 21300000, guid: 2b935da67c4214640be7bb935073c6e1, type: 3}
   pickup3Tex: {fileID: 21300000, guid: 5dafa6a4ad3a142e0b20f6a25d69aaad, type: 3}
   pickup4Tex: {fileID: 21300000, guid: fb837420ad314429c9fd7e00cd0f3b29, type: 3}
   pickup0Tex: {fileID: 21300000, guid: ba7851f276e57489f835fbb62d09e2f8, type: 3}
-  swiss: {fileID: 0}
 --- !u!1001 &756495192
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15413,6 +15485,7 @@ RectTransform:
   - {fileID: 998278321}
   - {fileID: 853088924}
   - {fileID: 73523068}
+  - {fileID: 130971323}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -25389,6 +25462,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mechanism
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f408b054bcd1484438fa844955ab0054, type: 3}
+      propertyPath: m_TagString
+      value: swiss
+      objectReference: {fileID: 0}
     - target: {fileID: 2318418823137174552, guid: f408b054bcd1484438fa844955ab0054, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
@@ -25428,9 +25505,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f408b054bcd1484438fa844955ab0054, type: 3}
       insertIndex: -1
       addedObject: {fileID: 205421642}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f408b054bcd1484438fa844955ab0054, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 205421641}
   m_SourcePrefab: {fileID: 100100000, guid: f408b054bcd1484438fa844955ab0054, type: 3}
 --- !u!4 &1695165433 stripped
 Transform:

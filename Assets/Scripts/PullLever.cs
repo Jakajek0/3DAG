@@ -43,6 +43,12 @@ public class PullLever : MonoBehaviour
         }
         else
         {
+            //For quick testing
+            /*hook.SetActive(false);
+            blocker.SetActive(false);
+            metalSheet1.GetComponent<Collider>().enabled = false;
+            metalSheet2.GetComponent<Collider>().enabled = false;*/
+            
             Interact.dialogueLines[0] = "I need more power to pull this lever.";
             Interact.dialogueLines[1] = "Maybe I should look around a little bit more.";
         }
