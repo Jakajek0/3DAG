@@ -45,8 +45,8 @@ public class PowerBox : MonoBehaviour
                 Interact.enabled = false; // Disable the NPCInteract script to prevent further interaction
                 isPoweredOn = true;
 
-                Interact.dialogueLines[0] = "That must have powered it on!";
-                Interact.dialogueLines[1] = "Now I can pull the lever to use the crane! It should be at the top.";
+                Interact.dialogueLines[0] = "That powered it on! Now I can pull the lever to use the crane!";
+                Interact.dialogueLines[1] = "It should be at the top of the crane.";
             }
             else if (PickupCollect.pickupAmount >= 1 && PickupCollect.pickupAmount < 4)
             {
