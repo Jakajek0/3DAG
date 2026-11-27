@@ -8,6 +8,8 @@ public class NPCInteract : MonoBehaviour
     [SerializeField] private PowerBox powerBox; // Reference to the PowerBox script
 
     [SerializeField] private PullLever PullLever; // Reference to the PullLever script
+
+    [SerializeField] private MachineOn machineOn; // Reference to the MachineOn script
     
     [TextArea(3, 5)]
     public string[] dialogueLines;
@@ -36,6 +38,10 @@ public class NPCInteract : MonoBehaviour
             if (PullLever != null)
             {
                 PullLever.PullLeverAction(); // Call the PullLeverAction method from the PullLever script
+            }
+            if (machineOn != null)
+            {
+                machineOn.ActivateMachine(); // Call the ActivateMachine method from the MachineOn script
             }
                 
             dialogueBox.StartDialogue(dialogueLines);
